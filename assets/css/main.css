@@ -1063,9 +1063,7 @@ section {
     "Helvetica Neue", sans-serif;
   font-size: 20px;
   text-align: center;
-  color: rgb(255, 255, 255);
   padding: 10px;
-  background-color: #8afa56;
 }
 
 .osh-main-p {
@@ -1907,4 +1905,15 @@ section {
   color: black;
   background-color: rgb(255, 255, 255);
   font-size: 14px;
+}
+
+.card-price {
+  padding: 10px;
+  background: rgb(70, 70, 207);
+  border-radius: 2px;
+  color: white;
+}
+.card-price-color{
+color: red;
+font-weight: bold;
 }
