@@ -1,7 +1,7 @@
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
+  --font-primary: "Courier New", sans-serif;
   --font-secondary: "Inter", sans-serif;
 }
 
@@ -56,7 +56,10 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 30px;
+  padding: 30px;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  margin: 10px 0;
 }
 
 .section-header h2 {
@@ -72,72 +75,13 @@ section {
 
 .section-header p {
   margin: 0;
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 400;
   font-family: var(--font-primary);
 }
 
 .section-header p span {
   color: var(--color-primary);
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: rgba(55, 55, 63, 0.05);
-  margin-top: 90px;
-}
-
-@media (max-width: 575px) {
-  .breadcrumbs {
-    margin-top: 70px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #676775;
-  content: "/";
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs h2 {
-    margin-bottom: 10px;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1973,4 +1917,16 @@ section {
   background-color: rgb(195, 208, 224);
   border: 0;
   border-radius: 5px;
+}
+
+.food-buyurtma {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buyurtma {
+  color: red;
 }
