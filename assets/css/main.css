@@ -1945,3 +1945,30 @@ section {
   border: 0;
   border-radius: 5px;
 }
+
+.place {
+  margin-top: 40px;
+  width: 100%;
+}
+.place div img {
+  margin: 0 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.place-main {
+  margin: auto;
+  text-align: center;
+}
+
+.place-c {
+  color: red;
+}
+.place-meal {
+  font-size: 20px;
+}
+
+.place-meal p button {
+  background-color: rgb(195, 208, 224);
+  border: 0;
+  border-radius: 5px;
+}
