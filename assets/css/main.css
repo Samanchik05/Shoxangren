@@ -57,7 +57,7 @@ section {
 .section-header {
   text-align: center;
   padding: 30px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border-radius: 10px;
   margin: 10px 0;
 }
@@ -1880,14 +1880,28 @@ section {
 .food-c {
   color: red;
 }
+.button1 a {
+  color: #ffffff;
+}
 .food-meal {
   font-size: 15px;
 }
 
 .food-meal p button {
-  background-color: rgb(195, 208, 224);
-  border: 0;
+  border: none;
+  background: #3a7999;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 13px;
   border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+.food-meal p button a:hover {
+  background: rgba(0, 0, 0, 0);
+  color: rgb(167, 173, 168);
+  box-shadow: inset 0 0 0 3px #3a7999;
 }
 
 .place {
@@ -1914,9 +1928,15 @@ section {
 }
 
 .place-meal p button {
-  background-color: rgb(195, 208, 224);
-  border: 0;
+  border: 1px solid green;
   border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.place-meal p button:hover {
+  background-color: rgb(110, 199, 102);
+  color: #f2f2f2;
 }
 
 .food-buyurtma {
