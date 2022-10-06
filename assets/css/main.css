@@ -1950,3 +1950,42 @@ section {
 .buyurtma {
   color: red;
 }
+
+
+.deal {
+  background: url(../images/deal-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.deal .content {
+  max-width: 50rem;
+}
+
+.deal .content .count-down {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.deal .content .count-down .box {
+  width: 9rem;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.deal .content .count-down .box h3 {
+  color: white;
+  background: rgb(43, 41, 41);
+  font-size: 20px;
+}
+
+.deal .content .count-down .box span {
+  display: block;
+  background: var(--black);
+  color: rgb(61, 58, 58);
+  width: 100%;
+}
